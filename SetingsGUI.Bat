@@ -16,7 +16,7 @@ echo  https://www.youtube.com/channel/UC4Vd3tkFIKOqCablN2sJlhQ
 ping -n 3 localhost >nul
 
 
-"%DP0%\data\password.ahk"
+"%~DP0%\data\password.ahk"
 
 ping -n 3 localhost >nul
 echo=
@@ -24,11 +24,11 @@ echo launching The setings Menu...
 ping -n 2 localhost >nul
 
 ping -n 3 localhost >nul
-"C:\Users\sire_\Desktop\Setings\Program_Filles/Setings.ahk"
+"%~DP0%\data\Setings.ahk"
 ping -n 3 localhost >nul
 
 echo=
-"C:\Users\sire_\Desktop\Setings\Program_Filles/close.ahk"
+"%~DP0%\data\close.ahk"
 ping -n 2 localhost >nul
 
 
